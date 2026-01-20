@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spaces</title>
+  <link rel="stylesheet" href="website.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="floating-container">
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">Where</div>
+    <div class="floating-element">When</div>
+    <div class="floating-element">Why</div>
+    <div class="floating-element">★</div>
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">Where</div>
+    <div class="floating-element">When</div>
+    <div class="floating-element">Why</div>
+    <div class="floating-element">★</div>
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">★</div>
+  </div>
+
+  <div class="top-bar">
+    <div class="center-container">
+      <div class="menu-left">
+        <a href="home.html" class="active" title="Home">
+          <img src="logo1.png" class="logo-image">
+        </a>
+
+        <a href="home.html" class="active" title="Home">
+          <i class="fa-solid fa-house"></i>
+        </a>
+
+
+        <a href="Connections.html" title="Spaces">
+          <i class="fa-solid fa-users"></i>
+        </a>
+
+        <a href="query.html" title="Answer">
+          <i class="fa-solid fa-circle-question"></i>
+        </a>
+            
+      </div>
+
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="search-input" placeholder="Search...">
+      </div>
+
+         <a href="login.html" class="icon-button" title="Profile">
+        <i class="fa-solid fa-right-to-bracket"></i>
+      </a>
+    </div>
+  </div>
+  </div>
+  <div class="main-container">
+    <div class="side-left">
+      <div class="yellow-card">
+        <h2>Create Space</h2>
+        <a href="#grp-modal" class="yellow-btn">Create +</a>
+      </div>
+    </div>
+    <div class="feed-area">
+      <div class="grid-container">
+
+        <div class="group-card">
+          <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Music">
+          <h4>Music Lovers</h4>
+        </div>
+
+        <div class="group-card">
+          <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" alt="Travel">
+          <h4>Travel Diaries</h4>
+        </div>
+
+        <div class="group-card">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4" alt="Movies">
+          <h4>Movie Buffs</h4>
+        </div>
+
+        <div class="group-card">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Education">
+          <h4>Student Community</h4>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="grp-modal" class="modal-overlay">
+    <div class="popup-card">
+      <a href="#" class="close-btn">X</a>
+      <h2>Create Group</h2>
+      <input type="text" id="grp-name" placeholder="Group Name">
+      <input type="text" id="grp-img" placeholder="Image URL (Optional)">
+      <button id="create-grp-btn" class="yellow-btn">Create</button>
+    </div>
+  </div>
+  <script src="website.js"></script>
+</body>
+
+</html>

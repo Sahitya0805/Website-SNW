@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Answer</title>
+  <link rel="stylesheet" href="website.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="floating-container">
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">Where</div>
+    <div class="floating-element">When</div>
+    <div class="floating-element">Why</div>
+    <div class="floating-element">★</div>
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">Where</div>
+    <div class="floating-element">When</div>
+    <div class="floating-element">Why</div>
+    <div class="floating-element">★</div>
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">★</div>
+  </div>
+
+  <div class="top-bar">
+    <div class="center-container">
+      <div class="menu-left">
+        <a href="home.html" class="active" title="Home">
+          <img src="logo1.png" class="logo-image">
+        </a>
+
+        <a href="home.html" class="active" title="Home">
+          <i class="fa-solid fa-house"></i>
+        </a>
+
+
+        <a href="Connections.html" title="Spaces">
+          <i class="fa-solid fa-users"></i>
+        </a>
+
+        <a href="query.html" title="Answer">
+          <i class="fa-solid fa-circle-question"></i>
+        </a>
+        <a href="login.html" class="profile-mobile" style="display:none;" title="Profile">
+          <i class="fa-solid fa-user"></i>
+        </a>
+      </div>
+
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="search-input" placeholder="Search...">
+      </div>
+
+         <a href="login.html" class="icon-button" title="Profile">
+        <i class="fa-solid fa-right-to-bracket"></i>
+      </a>
+    </div>
+  </div>
+  </div>
+  <div class="main-container">
+    <div class="side-left">
+      <div class="yellow-card">
+        <h2>Ask Question?</h2>
+        <a href="#ask-modal" class="yellow-btn">Ask ?</a>
+      </div>
+    </div>
+    <div class="feed-area" id="questions-feed">
+      <div class="question-card">
+        <h4>What is fun to learn?</h4>
+        <p>0 Answers</p>
+        <div class="question-actions">
+          <div class="action-btn like-btn">
+            <span>❤️</span> Like (<span class="count">5</span>)
+          </div>
+          <label for="ans2" class="action-btn">
+            <span>💬</span> Answer
+          </label>
+        </div>
+        <input type="checkbox" id="ans2" class="hidden-checkbox">
+        <div class="answer-area">
+          <div class="answers-list"></div>
+          <textarea placeholder="Write here..."></textarea>
+          <button class="yellow-btn post-answer-btn" style="display:inline-block; font-size:16px;">Post</button>
+        </div>
+      </div>
+      <div class="question-card">
+        <h4>Why is the sky blue?</h4>
+        <p>0 Answers</p>
+        <div class="question-actions">
+          <div class="action-btn like-btn">
+            <span>❤️</span> Like (<span class="count">12</span>)
+          </div>
+          <label for="ans3" class="action-btn">
+            <span>💬</span> Answer
+          </label>
+        </div>
+        <input type="checkbox" id="ans3" class="hidden-checkbox">
+        <div class="answer-area">
+          <div class="answers-list"></div>
+          <textarea placeholder="Write here..."></textarea>
+          <button class="yellow-btn post-answer-btn" style="display:inline-block; font-size:16px;">Post</button>
+        </div>
+      </div>
+      <div class="question-card">
+        <h4>What is the best way to learn Coding?</h4>
+        <p>0 Answers</p>
+        <div class="question-actions">
+          <div class="action-btn like-btn">
+            <span>❤️</span> Like (<span class="count">8</span>)
+          </div>
+          <label for="ans4" class="action-btn">
+            <span>💬</span> Answer
+          </label>
+        </div>
+        <input type="checkbox" id="ans4" class="hidden-checkbox">
+        <div class="answer-area">
+          <div class="answers-list"></div>
+          <textarea placeholder="Write here..."></textarea>
+          <button class="yellow-btn post-answer-btn" style="display:inline-block; font-size:16px;">Post</button>
+        </div>
+      </div>
+      <div class="question-card">
+        <h4>How do I make friends?</h4>
+        <p>0 Answers</p>
+        <div class="question-actions">
+          <div class="action-btn like-btn">
+            <span>❤️</span> Like (<span class="count">15</span>)
+          </div>
+          <label for="ans5" class="action-btn">
+            <span>💬</span> Answer
+          </label>
+        </div>
+        <input type="checkbox" id="ans5" class="hidden-checkbox">
+        <div class="answer-area">
+          <div class="answers-list"></div>
+          <textarea placeholder="Write here..."></textarea>
+          <button class="yellow-btn post-answer-btn" style="display:inline-block; font-size:16px;">Post</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="ask-modal" class="modal-overlay">
+    <div class="popup-card">
+      <a href="#" class="close-btn">X</a>
+      <h2>Ask Question</h2>
+      <input type="text" id="qs-input" placeholder="Your Question?">
+      <button id="qs-send" class="yellow-btn">Post</button>
+    </div>
+  </div>
+  <script src="website.js"></script>
+</body>
+
+</html>

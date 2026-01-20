@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="website.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body class="home">
+
+  <div class="floating-container">
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">Where</div>
+    <div class="floating-element">When</div>
+    <div class="floating-element">Why</div>
+    <div class="floating-element">★</div>
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">Where</div>
+    <div class="floating-element">When</div>
+    <div class="floating-element">Why</div>
+    <div class="floating-element">★</div>
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">★</div>
+  </div>
+
+  <div class="top-bar">
+    <div class="center-container">
+      <div class="menu-left">
+        <a href="home.html">
+          <img src="logo1.png" class="logo-image">
+        </a>
+
+        <a href="home.html" class="active" title="Home">
+          <i class="fa-solid fa-house"></i>
+        </a>
+
+        <a href="Connections.html" title="Spaces">
+          <i class="fa-solid fa-users"></i>
+        </a>
+
+        <a href="query.html" title="Answer">
+          <i class="fa-solid fa-circle-question"></i>
+        </a>
+        <a href="login.html" class="profile-mobile" style="display:none;" title="Profile">
+          <i class="fa-solid fa-user"></i>
+        </a>
+      </div>
+
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="search-input" placeholder="Search...">
+      </div>
+
+
+      <a href="login.html" class="icon-button" title="Profile">
+        <i class="fa-solid fa-right-to-bracket"></i>
+      </a>
+    </div>
+  </div>
+  </div>
+  <div class="main-container">
+    <div class="side-left">
+      <div class="yellow-card">
+        <h2>Ask Question?</h2>
+        <a href="#ask-modal" class="yellow-btn">Ask ?</a>
+      </div>
+    </div>
+    <div class="feed-area">
+      <div class="post-card">
+        <h3>AI Startup Shakes Silicon Valley</h3>
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7" alt="AI Startup">
+        <p><b>Who:</b> Startup Founder</p>
+        <p><b>What:</b> AI Product Launch</p>
+        <p><b>When:</b> Today</p>
+        <p><b>Where:</b> San Francisco</p>
+        <p><b>Why:</b> Innovation</p>
+      </div>
+
+      <div class="post-card">
+        <h3>Best places to visit in India?</h3>
+        <img src="https://briotravels.com/blog/wp-content/uploads/2024/10/Best-Places-To-Visit-In-India.png"
+          alt="Travel">
+        <p><b>Who:</b> Traveler</p>
+        <p><b>What:</b> Tourism</p>
+        <p><b>When:</b> 2 days ago</p>
+        <p><b>Where:</b> India</p>
+        <p><b>Why:</b> Vacation Planning</p>
+      </div>
+
+
+      <div class="post-card">
+        <h3>Top Bollywood Movies to Watch in 2026</h3>
+        <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba" alt="Bollywood Movies">
+        <p><b>Who:</b> Movie Lovers</p>
+        <p><b>What:</b> Movie Recommendations</p>
+        <p><b>When:</b> 2026</p>
+        <p><b>Where:</b> India</p>
+        <p><b>Why:</b> Entertainment</p>
+      </div>
+
+      <div class="post-card">
+        <h3>Tech Leader Talks About Future</h3>
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e" alt="Tech Leader">
+        <p><b>Who:</b> Tech CEO</p>
+        <p><b>What:</b> Future of AI</p>
+        <p><b>When:</b> Yesterday</p>
+        <p><b>Where:</b> Global Summit</p>
+        <p><b>Why:</b> Awareness</p>
+      </div>
+
+      <div class="post-card">
+        <h3>Young Developer Wins Hackathon</h3>
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Hackathon">
+        <p><b>Who:</b> Young Developer</p>
+        <p><b>What:</b> Hackathon Win</p>
+        <p><b>When:</b> Last Night</p>
+        <p><b>Where:</b> Bengaluru</p>
+        <p><b>Why:</b> Skill & Teamwork</p>
+      </div>
+    </div>
+
+  </div>
+  <div id="ask-modal" class="modal-overlay">
+    <div class="popup-card">
+      <a href="#" class="close-btn">X</a>
+      <h2>Ask Question</h2>
+      <input type="text" id="inp-question" placeholder="Question?">
+      <input type="text" id="inp-who" placeholder="Who?">
+      <input type="text" id="inp-what" placeholder="What?">
+      <input type="text" id="inp-when" placeholder="When?">
+      <input type="text" id="inp-where" placeholder="Where?">
+      <input type="text" id="inp-why" placeholder="Why?">
+      <button id="send-post-btn" class="yellow-btn">Send</button>
+    </div>
+  </div>
+  <script src="website.js"></script>
+</body>
+
+</html>

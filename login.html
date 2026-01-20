@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="website.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="floating-container">
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">Where</div>
+    <div class="floating-element">When</div>
+    <div class="floating-element">Why</div>
+    <div class="floating-element">★</div>
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">Where</div>
+    <div class="floating-element">When</div>
+    <div class="floating-element">Why</div>
+    <div class="floating-element">★</div>
+    <div class="floating-element">Who</div>
+    <div class="floating-element">What</div>
+    <div class="floating-element">★</div>
+  </div>
+
+  <div class="login-screen">
+    <input type="radio" name="auth" id="show-login" checked hidden>
+    <input type="radio" name="auth" id="show-signup" hidden>
+    <div id="login-part" class="login-box">
+      <h2 style="color:yellow;">LOGIN</h2>
+      <input type="text" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button class="yellow-btn" style="width:100%;">Login</button>
+      <p style="margin-top:15px; color:white;">New here? <label for="show-signup"
+          style="color:yellow; cursor:pointer;">Sign Up</label></p>
+    </div>
+    <div id="signup-part" class="login-box">
+      <h2 style="color:#ffffff;">SIGN UP</h2>
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button class="yellow-btn" style="width:100%;">Sign Up</button>
+      <p style="margin-top:15px; color:white;">Already have an account? <label for="show-login"
+          style="color:#ffffff; cursor:pointer;">Login</label></p>
+    </div>
+  </div>
+  <script src="website.js"></script>
+</body>
+
+</html>
